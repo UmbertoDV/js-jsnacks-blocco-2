@@ -25,7 +25,7 @@ for (let i = 0; i < risultati.length; i++) {
 		vittorie++;
 	} else if (risultati[i] == "X") {
 		pareggi++;
-	} else if (risultati[i] == "L") {
+	} else {
 		sconfitte++;
 	}
 }
